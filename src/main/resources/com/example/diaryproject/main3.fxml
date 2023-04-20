@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="634.0" prefWidth="906.0" style="-fx-background-color: #ffdf00;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.diaryproject.Controller3">
+    <children>
+        <Label fx:id="historyLabel" alignment="TOP_LEFT" layoutX="14.0" layoutY="70.0" opacity="0.64" prefHeight="549.0" prefWidth="516.0" style="-fx-border-color: #6f8999; -fx-border-width: 5px; -fx-border-style: dotted; -fx-background-color: #ffcf00;" text="Diary" textFill="#5a8e0b" wrapText="true">
+            <font>
+                <Font name="Droid Serif" size="28.0" />
+            </font>
+        </Label>
+        <Label fx:id="lessonLabel" alignment="TOP_CENTER" layoutX="541.0" layoutY="228.0" opacity="0.63" prefHeight="263.0" prefWidth="344.0" style="-fx-border-color: #6f8999; -fx-border-width: 5px; -fx-border-style: dotted; -fx-background-color: #ffcf00;" text="Lesson" wrapText="true">
+            <font>
+                <Font size="28.0" />
+            </font>
+        </Label>
+        <ChoiceBox fx:id="choiceBox" layoutX="541.0" layoutY="160.0" prefHeight="47.0" prefWidth="203.0" style="-fx-background-color: #ffcf00;" />
+        <Label fx:id="titleLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="7.0" prefHeight="47.0" prefWidth="516.0" style="-fx-background-color: #ffcf00;" text="TITLE" textFill="#9fcf00">
+            <font>
+                <Font name="Serif Bold Italic" size="38.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="536.0" layoutY="5.0" prefHeight="137.0" prefWidth="354.0" style="-fx-background-color: #ffcf00;" text="Select by Your Titles" textFill="#9fcf00">
+            <font>
+                <Font name="Serif Bold Italic" size="28.0" />
+            </font>
+        </Label>
+        <Button layoutX="727.0" layoutY="519.0" mnemonicParsing="false" onAction="#exitAction" prefHeight="70.0" prefWidth="162.0" text="Exit">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button  layoutX="541.0" layoutY="519.0" mnemonicParsing="false" onAction="#backAction" prefHeight="70.0" prefWidth="162.0" text="Back">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button layoutX="757.0" layoutY="160.0" mnemonicParsing="false" onAction="#readAction" prefHeight="47.0" prefWidth="126.0" text="Read" />
+
+    </children>
+</AnchorPane>

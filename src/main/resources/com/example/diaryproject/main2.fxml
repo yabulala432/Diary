@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="634.0" prefWidth="906.0" style="-fx-background-color: #6f892d;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.diaryproject.Controller2">
+    <TextArea fx:id="narrationArea" layoutX="19.0" layoutY="103.0" prefHeight="521.0" prefWidth="479.0" style="-fx-border-color: #6f8999; -fx-border-width: 5px; -fx-border-style: dotted;" wrapText="true">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </TextArea>
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="-4.0" prefHeight="103.0" prefWidth="470.0" text="Narrate today's experience here." textAlignment="CENTER" textFill="#90c925" wrapText="true">
+        <font>
+            <Font size="35.0" />
+        </font>
+    </Label>
+    <TextArea fx:id="lessonArea" layoutX="509.0" layoutY="224.0" prefHeight="308.0" prefWidth="376.0" style="-fx-border-color: #6f8999; -fx-border-width: 5px; -fx-border-style: dashed;" wrapText="true">
+        <font>
+            <Font size="23.0" />
+        </font>
+    </TextArea>
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" layoutY="108.0" prefHeight="116.0" prefWidth="376.0" text="What lesson did you learn?" textAlignment="CENTER" textFill="#90c925" wrapText="true">
+        <font>
+            <Font size="40.0" />
+        </font>
+    </Label>
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="509.0" layoutY="-4.0" prefHeight="41.0" prefWidth="376.0" style="-fx-font-weight: bolder;" text="Title" textAlignment="CENTER" textFill="#90c925" wrapText="true">
+        <font>
+            <Font size="40.0" />
+        </font>
+    </Label>
+    <TextField fx:id="titleField" layoutX="509.0" layoutY="53.0" prefHeight="46.0" prefWidth="376.0" style="-fx-border-color: #6f896f; -fx-border-width: 5px; -fx-border-style: dashed;">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </TextField>
+    <Button layoutX="513.0" layoutY="542.0" mnemonicParsing="false" onAction="#submitAction" prefHeight="82.0" prefWidth="164.0" style="-fx-font-weight: bolder;" text="Submit" textFill="#65a42a">
+        <font>
+            <Font size="25.0" />
+        </font>
+    </Button>
+    <Button  layoutX="706.0" layoutY="542.0" mnemonicParsing="false" onAction="#historyButtonAction" prefHeight="82.0" prefWidth="164.0" text="My history" textFill="#65a42a">
+        <font>
+            <Font name="System Bold Italic" size="24.0" />
+        </font></Button>
+</AnchorPane>
